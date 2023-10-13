@@ -12,7 +12,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   width: 100%;
-  padding: 0 10px;
+  /* padding: 0 10px; */
 }
 
 body::before {
@@ -23,6 +23,7 @@ body::before {
   background: url("sch.jpg"), #000;
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .wrapper {
@@ -30,7 +31,7 @@ body::before {
   border-radius: 8px;
   padding: 30px;
   text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(25, 25, 25, 0.5);
   backdrop-filter: blur(9px);
   -webkit-backdrop-filter: blur(9px);
 }
@@ -43,12 +44,12 @@ form {
 h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #fff;
+  color: #1f1e1e;
 }
 
 .input-field {
   position: relative;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid #0b0b0b;
   margin: 15px 0;
 }
 
@@ -57,7 +58,7 @@ h2 {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  color: #fff;
+  color: #0b0b0b;
   font-size: 16px;
   pointer-events: none;
   transition: 0.15s ease;
@@ -70,7 +71,7 @@ h2 {
   border: none;
   outline: none;
   font-size: 16px;
-  color: #fff;
+  color: #151515;
 }
 
 .input-field input:focus~label,
@@ -85,11 +86,11 @@ h2 {
   align-items: center;
   justify-content: space-between;
   margin: 25px 0 35px 0;
-  color: #fff;
+  color: #060606;
 }
 
 #remember {
-  accent-color: #fff;
+  accent-color: #100f0f;
 }
 
 .forget label {
@@ -102,7 +103,7 @@ h2 {
 }
 
 .wrapper a {
-  color: #efefef;
+  color: #171616;
   text-decoration: none;
 }
 
@@ -124,7 +125,7 @@ button {
 }
 
 button:hover {
-  color: #fff;
+  color: #c2d8c4;
   border-color: #fff;
   background: rgba(255, 255, 255, 0.15);
 }
@@ -132,5 +133,5 @@ button:hover {
 .register {
   text-align: center;
   margin-top: 30px;
-  color: #fff;
+  color: #141414;
 }
